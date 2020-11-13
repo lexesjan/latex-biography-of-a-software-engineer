@@ -2,8 +2,9 @@
 
 \usepackage{url}
 
-\title{Biography of a Software Engineer --- Ken Thompson} \author{Lexes Jan
-Mantiquilla} \date{\today}
+\title{Biography of a Software Engineer --- Ken Thompson}
+\author{Lexes Jan Mantiquilla}
+\date{\today}
 
 \begin{document}
 
@@ -11,44 +12,44 @@ Mantiquilla} \date{\today}
 
 \section{Introduction}
 Kenneth Lane Thompson, also known as Ken Thompson, was born on the 4th of
-February 1943 in New Orleans, Loiusiana, U.S. During Thompson's childhood, he
-was always facinated with logic and electronics. Thompson got his first
+February 1943 in New Orleans, Louisiana, U.S. During Thompson's childhood, he
+was always fascinated with logic and electronics. Thompson got his first
 exposure with programming during his junior semester year in lab classes
 where they had a G15 computer. Thompson created scaling programs on the G15
 computer which was written in assembly.\cite{seibel2009coders}
 
-Thompson attended the University of California, Berkley, graduating with a
-Bachelor of Science in 1965 and a Master's degree in Electrial Engineering and
+Thompson attended the University of California, Berkeley, graduating with a
+Bachelor of Science in 1965 and a Master's degree in Electrical Engineering and
 Computer Science in 1966. Following this, Thompson was then hired at Bell
 Laboratories. It was here where many of his well known accomplishments were
-created, notably Unix, along with Dennis Ritchie, the B programming language and
-the UTF-8 character encoding. Thompson retired from Bell Laboratories on the
-1st of December, 2000.\cite{linfo} From 2006 onwards, Thompson works at Google
-as a distinguished engineer.
+created, notably Unix, along with Dennis Ritchie, the B programming language
+and the UTF-8 character encoding. Thompson retired from Bell Laboratories on
+the 1st of December, 2000.\cite{linfo} From 2006 onwards, Thompson works at
+Google as a distinguished engineer.
 
 \section{Unix Operating System}
 One of Thompson's greatest contributions to computer science was the creation
 of the Unix operating system along with Dennis Ritchie. Unix is a group of
-multitasking, multiuser computer operating systems that was developed by Ken
+multitasking, multi-user computer operating systems that was developed by Ken
 Thompson, Dennis Ritchie and others at the Bell Laboratories research center.
 
-The first version of Unix was born from out of Thompson's need to test out his
-new disk scheduling algorithm's throughput. In order to complete this test, he
+The first version of Unix was born out of Thompson's need to test out his new
+disk scheduling algorithm's throughput. In order to complete this test, he
 required three programs: an editor, an assembler and a kernel. The combination
 of these three programs, then, was what created the first version of
-Unix.\cite{VCF} The initial versions of the Unix operating system was written
-using assembly language, however in 1973, the C language has become
-sufficiently mature and Unix was rewritten in C.\cite{ritchie1979evolution}
+Unix.\cite{VCF} The initial versions of the Unix operating system were written
+using assembly language. However in 1973, the C language became sufficiently
+mature and Unix was rewritten in C.\cite{ritchie1979evolution}
 
-The popularity of Unix rose between the academic circles and flavours of the
-Unix operating system were created most notably the BSD (Berkley Standard
+The popularity of Unix rose between the academic circles. Flavours of the Unix
+operating system were created, most notably the BSD (Berkley Standard
 Distribution) version of Unix. Many extensions to Unix have been made in this
-flavor of Unix the BSD version of Unix added the TCP/IP protocol support in
-1983\cite{unixorg} which gave birth to the world wide web and Bill Joy's vi
-editor was also made. At this time AT\&T were also developing the commercial
-flavor of Unix called System III and later System V. Many other commercial
-companies created their own flavours of Unix such as Sun's Solaris and Apple
-Unix which was a BSD based Unix operating system.
+flavor of Unix. The BSD version of Unix added the TCP/IP protocol support in
+1983\cite{unixorg} which gave birth to the world wide web Bill Joy's vi editor
+was also made. At this time AT\&T were also developing the commercial flavor of
+Unix called System III, and later System V. Many other commercial companies
+created their own flavours of Unix such as Sun's Solaris and Apple Unix which
+was a BSD based Unix operating system.
 
 \subsection{Impact}
 The Unix operating system without a doubt had a big impact on modern day
@@ -58,14 +59,14 @@ devices nowadays such as Android, servers, supercomputers, and mainframes. Most
 of the internet today is powered by Linux.
 
 The use of a high level language to write an operating system was unheard of at
-time during the creation of Unix. The Unix C rewrite revolutionized operating
-systems as it allowed for portability i.e. operating systems were no longer
-bound to specific hardware.
+the time during the creation of Unix. The Unix C rewrite revolutionized
+operating systems as it allowed for portability i.e. operating systems were no
+longer bound to specific hardware.
 
-The development of Unix lead to the creation of the GNU (GNU's not Unix)
-project lead by Richard Stallman. The creation of the GNU project also spawned
-the creation of the Free Software Foundation which provides awareness about the
-Free Software Movement and is the creator of the popular GPL (GNU General
+The development of Unix led to the creation of the GNU (GNU's not Unix) project
+led by Richard Stallman. The creation of the GNU project also spawned the
+creation of the Free Software Foundation which provides awareness about the
+Free Software Movement. It is also the creator of the popular GPL (GNU General
 Public License), a license used in many software projects.
 
 \section{Programming Languages}
@@ -74,13 +75,13 @@ Thompson has worked on the B programming language during the early versions of
 the Unix operating system. Thompson used TMG (TransMoGrifier), created by
 Robert M. McClure, to create the compiler for B.  Thompson attempted to
 implement a Fortran compiler using TMG, however due to hardware limitations,
-many features of the language was stripped and instead B was created as a
+many features of the language were stripped and instead B was created as a
 result.\cite{VCF}
 
 \subsubsection{Impact}
 B is the direct predecessor of C. Dennis Ritchie created C by improving and
 extending the functionality of the B programming language, most notably
-introducing the types system. C is one of the most influencial and powerful
+introducing the types system. C is one of the most influential and powerful
 languages ever created. C is still in wide use today especially for systems
 programming such as operating systems and databases programming. C influenced
 many languages such as Go, C++, JavaScript, Java and many more.
@@ -99,22 +100,22 @@ Developer Survey.\cite{dev2020survey}
 \subsubsection*{Some examples of influential technology created in Go are:}
 \begin{itemize}
   \item Docker allows for the ease of deployment through the use of Docker
-    containers. Docker has many advantages and the main one is portability. If
-    the application deploys successfully on a dev machine, it will deploy on
-    the host machine. Other advantages include security and isolation. Since
-    the containers are completely isolated, no Docker container can access
-    other Docker container processes.
+    containers. Docker has many advantages, the main one being portability. If
+    the application deployed successfully on a developer machine, it will also
+    deploy successfully on the host machine. Other advantages include security
+    and isolation. Since the containers are completely isolated, no Docker
+    container can access other Docker container processes.
   \item Kubernetes is container orchestration software created by Google. It
     allows for the management, deployment and scaling of containers. Kubernetes
     can be used in conjunction with Docker to allow ease of management of the
-    deployment multiple Docker containers to allow for automated redundancy,
-    load balancing and provisioning of containers.
+    deployment of multiple Docker containers, to allow for automated
+    redundancy, load balancing and provisioning of containers.
 \end{itemize}
 
 \section{UTF-8 Character Encoding}
 Thompson along with Rob Pike created the first implementation of the UTF-8
 encoding scheme for the Plan 9 operating system in 1992.\cite{pikehello} This
-encoding scheme is backwards compatible with ASCII.
+encoding scheme is backwards-compatible with ASCII.
 
 \subsection{Impact}
 As of 2020, the UTF-8 character encoding scheme is the most used encoding
@@ -124,8 +125,8 @@ to see websites with multiple languages on the same webpage.
 
 \section{Conclusion}
 It is evident from the above arguments that Ken Thompson is a key software
-engineer and has many substantial constributions to the world of software
-engineering and computing.
+engineer. He has many substantial contributions to the world of software
+engineering and has forever changed computing as we know it.
 
 \bibliographystyle{plain}
 \bibliography{bibliography.bib}
